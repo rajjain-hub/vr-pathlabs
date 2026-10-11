@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+
+        <head>
+            <title>Contact | VR Pathlabs</title>
+            <link rel="icon" href="img/footer.png">
+            <link rel="stylesheet" href="style.css">
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+
+        <body>
+
+            <!--Header Start-->
+
+
+                <header>
+
+                    <nav class="nav">
+
+                        <img class="logo" src="img/logo.png" alt="pathlabs Logo" >
+
+                        <div class="navlinks">
+                            <a href="index.html">Home</a>
+                            <a href="about.html">About Us</a>
+                            <a href="test.html">Tests</a>
+                            <a href="services.html">Services</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="booking.html">Book Now</a>
+                        </div>
+
+                        <a href="login.html" class="loginlink">Login</a>
+
+                    </nav>
+
+                </header>
+
+            <!--Header End-->
+
+            <!-- Main Start-->
+
+                <main class="contactpage">
+
+                    <h1 class="welcome">Contact Us</h1>
+
+                    <p class="contactintro">
+                        Get in touch for test enquiries, sample collection,
+                        or help accessing your reports.
+                    </p>
+
+                    <div class="contactlayout">
+
+                        <section class="contactinfo">
+                            <h2>Get in Touch</h2>
+
+                            <div class="contactitem">
+                                <h3>Call Us</h3>
+                                <a href="tel:+919479723120">+91 9479723120</a>
+                            </div>
+
+                            <div class="contactitem">
+                                <h3>Email Us</h3>
+                                <a href="mailto:info.vrpathlab@gmail.com">
+                                    info.vrpathlab@gmail.com
+                                </a>
+                            </div>
+
+                            <div class="contactitem">
+                                <h3>Visit Our Centre</h3>
+                                <p>Vijay Nagar, Indore,<br>
+                                    Madhya Pradesh – 452010</p>
+                            </div>
+
+                            <div class="contactitem">
+                                <h3>Working Hours</h3>
+                                <p>Monday – Saturday: 10 – 5 PM</p>
+                                <p>Sunday: Closed</p>
+                            </div>
+                        </section>
+
+                        <section class="contactenquiry">
+                            <h2>Send an Enquiry</h2>
+
+                            <form class="contactform" id="contactform">
+
+                                <!-- Full Name -->
+                                <div class="contactfield">
+                                    <label for="contactname">Full Name</label>
+                                    <input type="text"
+                                        id="contactname"
+                                        name="fullname"
+                                        placeholder="Enter your full name"
+                                        minlength="2"
+                                        maxlength="50"
+                                        pattern="[A-Za-z]+( +[A-Za-z]+)*"
+                                        title="Enter a valid name using only letters and spaces"
+                                        required>
+                                </div>
+
+                                <!-- Phone Number -->
+                                <div class="contactfield">
+                                    <label for="contactphone">Phone Number</label>
+                                    <input type="tel"
+                                    id="contactphone"
+                                    name="phone"
+                                    placeholder="Enter your 10-digit phone number"
+                                    pattern="[1-9][0-9]{9}"
+                                    maxlength="10"
+                                    title="Enter a 10-digit number that does not start with 0"
+                                    required>
+                                </div>
+
+                                <div class="contactfield">
+                                    <label for="contactemail">Email (Optional)</label>
+                                    <input type="email" id="contactemail" name="email"
+                                        placeholder="Enter your email address">
+                                </div>
+
+                                <div class="contactfield">
+                                    <label for="enquirytype">Enquiry About</label>
+                                    <select id="enquirytype" name="enquirytype" required>
+                                        <option value="">Choose an option</option>
+                                        <option value="tests">Tests and Packages</option>
+                                        <option value="collection">Home Sample Collection</option>
+                                        <option value="reports">Report Assistance</option>
+                                        <option value="other">Other Enquiry</option>
+                                    </select>
+                                </div>
+
+                                <div class="contactfield contactmessage">
+                                    <label for="contactmessage">Message</label>
+                                    <textarea id="contactmessage" name="message" rows="4"
+                                        placeholder="Write your enquiry here" required></textarea>
+                                </div>
+
+                                <div class="contactsubmit">
+                                    <button type="submit" class="booktest">
+                                        Send Enquiry
+                                    </button>
+                                </div>
+
+                            </form>
+                        </section>
+
+                    </div>
+
+                    <section class="contactbooking">
+                        <h2>Ready to Book a Test?</h2>
+                        <p>Visit our booking page to request a test or health checkup package.</p>
+                        <a href="booking.html" class="booktest">Book a Test</a>
+                    </section>
+
+                </main>
+
+            <!-- Main End -->
+
+            <!-- Footer Start -->
+
+                <footer>
+
+                    <div class="footercontent">
+                        <div class="footerabout">
+
+                            <div class ="footerbrand"><img src="img/footer.png" class="footerimg" alt="pathlabs Logo" >
+                                <h3>VR Pathlabs</h3>
+                            </div>  
+                            <p> VR Pathlabs is a sample collection centre connecting you
+                                with laboratory testing services. Contact us for test enquiries,
+                                sample collection information, and help accessing your reports.
+                            </p>
+
+
+                        </div>
+
+                        <div class="footerlinks">
+
+                            <h3>Quick Links</h3>
+
+                            <a href="index.html">Home</a>
+                            <a href="about.html">About Us</a>
+                            <a href="test.html">Tests</a>
+                            <a href="services.html">Services</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="booking.html">Book a Test</a>
+                            <a href="login.html">Login</a>
+                    
+                        </div>
+
+                        <div class="footercontact">
+                        
+                            <h3>Contact Us</h3>
+
+                            <p>📍 Vijay Nagar, Indore, Madhya Pradesh - 452010</p>
+
+                            <p>☎ +919479723120</p>
+
+                            <p>🕒 Open: 10 to 5pm</p>
+
+                        </div>
+
+                        <div class="footerdays">
+                            <h3>📅 Working Days</h3>
+
+                            <p>Monday</p>
+                            <p>Tuesday</p>
+                            <p>Wednesday</p>
+                            <p>Thursday</p>
+                            <p>Friday</p>
+                            <p>Saturday</p>
+
+                            <p class="sunday">Sunday : Closed</p>
+
+                        </div>
+
+                    </div>
+
+                    <p class="copyright">
+                        © 2026 Raj Jain. All Rights Reserved.
+                    </p>
+
+                </footer>
+            <!-- Footer End -->
+
+            <script src="script.js" defer></script>
+
+        </body>
+    </html>

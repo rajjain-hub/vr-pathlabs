@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+
+        <head>
+            <title>Sign Up | VR Pathlabs</title>
+            <link rel="icon" href="img/footer.png">
+            <link rel="stylesheet" href="style.css">
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+
+        <body>
+
+            <!--Header Start-->
+
+
+                <header>
+
+                    <nav class="nav">
+
+                        <img class="logo" src="img/logo.png" alt="pathlabs Logo" >
+
+                        <div class="navlinks">
+                            <a href="index.html">Home</a>
+                            <a href="about.html">About Us</a>
+                            <a href="test.html">Tests</a>
+                            <a href="services.html">Services</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="booking.html">Book Now</a>
+                        </div>
+
+                        <a href="login.html" class="loginlink">Login</a>
+
+                    </nav>
+
+                </header>
+
+            <!--Header End-->
+
+            <!-- Main Start -->
+
+                <main class="loginpage">
+
+                    <section class="logincard">
+
+                        <h1>Create Account</h1>
+
+                        <p class="loginwelcome">
+                            Sign up to create your VR Pathlabs account.
+                        </p>
+
+                        <!-- <form class="loginform" method="post"> -->
+
+                        <form class="loginform">
+
+                            <div class="loginfield">
+                                <label for="signupname">Full Name</label>
+                                <input type="text" id="signupname" name="name"
+                                    placeholder="Enter your full name"
+                                    autocomplete="name" required>
+                            </div>
+
+                            <div class="loginfield">
+                                <label for="signupemail">Email ID</label>
+                                <input type="email" id="signupemail" name="email"
+                                    placeholder="Enter your email ID"
+                                    autocomplete="email" required>
+                            </div>
+
+                            <div class="loginfield">
+                                <label for="signuppassword">Password</label>
+                                <input type="password" id="signuppassword"
+                                name="password"
+                                placeholder="Create a password"
+                                minlength="8"
+                                pattern="(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9]).{8,}"
+                                title="Password must contain at least 8 characters, one capital letter,
+                                 one number, and one special character"
+                                autocomplete="new-password" required>
+                            </div>
+
+                            <div class="loginfield">
+                                <label for="confirmpassword">Confirm Password</label>
+                                <input type="password" id="confirmpassword"
+                                    name="confirmpassword"
+                                    placeholder="Confirm your password"
+                                    minlength="8"
+                                    autocomplete="new-password"
+                                    required>
+                            </div>
+
+                            <button type="submit" class="loginbutton">
+                                Sign Up
+                            </button>
+
+                        </form>
+
+                        <!-- <div class="loginseparator">or</div>
+
+                        <button type="button" class="logingoogle">
+                            Continue with Google
+                        </button> -->
+
+                        <p class="loginsignup">
+                            Already have an account?
+                            <a href="login.html">Login</a>
+                        </p>
+
+                    </section>
+
+                </main>
+
+            <!-- Main End -->
+
+            <!-- Footer Start -->
+
+                <footer>
+
+                    <div class="footercontent">
+                        <div class="footerabout">
+
+                            <div class ="footerbrand"><img src="img/footer.png" class="footerimg" alt="pathlabs Logo" >
+                                <h3>VR Pathlabs</h3>
+                            </div>  
+                            <p> VR Pathlabs is a sample collection centre connecting you
+                                with laboratory testing services. Contact us for test enquiries,
+                                sample collection information, and help accessing your reports.
+                            </p>
+
+
+                        </div>
+
+                        <div class="footerlinks">
+
+                            <h3>Quick Links</h3>
+
+                            <a href="index.html">Home</a>
+                            <a href="about.html">About Us</a>
+                            <a href="test.html">Tests</a>
+                            <a href="services.html">Services</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="booking.html">Book a Test</a>
+                            <a href="login.html">Login</a>
+                    
+                        </div>
+
+                        <div class="footercontact">
+                        
+                            <h3>Contact Us</h3>
+
+                            <p>📍 Vijay Nagar, Indore, Madhya Pradesh - 452010</p>
+
+                            <p>☎ +919479723120</p>
+
+                            <p>🕒 Open: 10 to 5pm</p>
+
+                        </div>
+
+                        <div class="footerdays">
+                            <h3>📅 Working Days</h3>
+
+                            <p>Monday</p>
+                            <p>Tuesday</p>
+                            <p>Wednesday</p>
+                            <p>Thursday</p>
+                            <p>Friday</p>
+                            <p>Saturday</p>
+
+                            <p class="sunday">Sunday : Closed</p>
+
+                        </div>
+
+                    </div>
+
+                    <p class="copyright">
+                        © 2026 Raj Jain. All Rights Reserved.
+                    </p>
+
+                </footer>
+            <!-- Footer End -->
+
+            <script src="script.js" defer></script>
+
+        </body>
+    </html>
